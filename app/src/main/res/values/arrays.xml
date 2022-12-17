@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="tab_entries">
+        <item>Home</item>
+        <item>For You</item>
+    </string-array>
+
+    <string-array name="tab_values">
+        <item>home</item>
+        <item>for_you</item>
+    </string-array>
+</resources>

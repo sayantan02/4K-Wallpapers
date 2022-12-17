@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/bottomheetbehavior"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/two_side_rounded_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:behavior_peekHeight="0dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+    <LinearLayout
+        android:id="@+id/linbottom"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/two_side_rounded_view2">
+        <ImageView
+            android:id="@+id/download"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_download_24"/>
+        <ImageView
+            android:id="@+id/setwallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_crop_original_24"/>
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/ic_baseline_info_24"/>
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5615101169407494/8587180613">
+    </com.google.android.gms.ads.AdView>
+    <TextView
+        android:id="@+id/thisistitle"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Related Images"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:paddingBottom="5dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rc_view2"
+        android:paddingRight="1dp"
+        android:background="@color/white"
+        android:paddingBottom="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

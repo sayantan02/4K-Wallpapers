@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/tabs_header">
+        <ListPreference
+            app:defaultValue="reply"
+            app:entries="@array/tab_entries"
+            app:entryValues="@array/tab_values"
+            app:key="set_tab"
+            app:title="Set Default Tab"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/notification_header">
+
+        <SwitchPreferenceCompat
+            app:key="notify"
+            android:disableDependentsState="true"
+            app:title="Notify for new App updates"
+            android:enabled="false"
+            app:defaultValue="true"
+            app:summaryOff="You will not recieve notification for new updates"
+            app:summaryOn="You will be notified of new updates"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Download">
+        <SwitchPreferenceCompat
+            app:key="over_wifi"
+            android:defaultValue="false"
+            app:summaryOff="WiFi and Cellular network allowed"
+            app:summaryOn="allowed to WiFi only"
+            app:title="Download Over WiFi only" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,47 @@
+<resources>
+
+    <string name="app_version">1.2.1</string>
+    <string name="app_name">FHD &amp; 4K Wallpapers</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">For you</string>
+    <string name="tab_text_3">Pro Picks</string>
+    <string name="tab_text_4">Popular</string>
+    <string name="tab_text_5">Most Downloaded</string>
+    <string name="title_activity_view_image">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">FullscreenActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="tabs_header">Set Tabs</string>
+    <string name="notification_header">Notifications</string>
+    <string name="large_text">
+    "Developer and owner of this App is Sayantan Biswas,\n\n"
+
+        "Sayantan is a School Student who is currently reading at School and in class 12"
+        "he has made this app for providing the best performance and value to the users"
+        "that are currently watching for the best wallpaper app and I am so glad that it"
+        "successfully completed and it is available for you. \n\n"
+
+        "So, everyone knows that how much hard App making is but, because"
+        "Sayantan is not a good developer but still he knows coding much and he made this app successfully. \n\n"
+
+        "Sayantan Tried to make this App much interactive and good looking, hope you liked"
+        "this app if you have any queries related to this app, any feedback or any queries"
+        "then you can reach Sayantan out through a message on Instagram. Sayantan will definitely make"
+        "those changes as soon as possible if it is a valid issue or any security flaw.\n\n"
+
+       "He lives in India in West Bengal state at a small city called Cooch Behar, he has only a"
+        "computer from which he made this app, Sayantan has written good algorithms to make this app"
+        "useful to you, if you have any query related to this then definitely Sayantan should know through"
+        "a message on Instagram.\n\n"
+
+        "You can Follow Sayantan to the social accounts that are provided to get all the updates for other useful apps published by him.\n\n"
+
+        "Your Sincerely Sayantan"
+    </string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Pictures"
+        android:textColor="@color/white"
+        android:fontFamily="@font/allerta"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchText"
+        android:hint="Search by Tags"
+        android:padding="12dp"
+        android:textColor="@color/black"
+        android:singleLine="true"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/searchrcv"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView3"
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-5615101169407494/7866562672">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

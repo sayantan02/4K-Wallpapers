@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="Widget.Theme.4KWallpapers.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Widget.Theme.4KWallpapers.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+
+    <style name="AppThemeBase" parent="android:style/Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_baseline_more_vert_24</item>
+    </style>
+
+</resources>
